@@ -57,13 +57,13 @@ list-style: none    ;
 /* img style */
 .photo{
     padding: 50px;
-   width: 900px;
+   width: 1000px;
    height: 500px;
-   margin-left: 33%;
+   margin-left: 15%;
 }
 section{
     background: rgba(255, 144, 14, 0.1);
-   height: 60vh;
+   height: 120vh;
      
 }
 
@@ -96,11 +96,14 @@ section{
 }
 .left-container{
     padding: 30px;
+    
 }
 
 .container{
     display: flex;
-   margin-top: 85px;
+   margin-top: 80px;
+   margin-right: 20%;
+   margin-left: 10%;
    justify-content: center;
 }
 /* last one part  */
@@ -117,8 +120,9 @@ margin-left: 38px;
     width: 708px;
 height: 982px;
 border-radius: 8px;
-
-
+}
+.right-site{
+    margin-left: 25px;
 }
 .all-site{
     display: flex;
@@ -188,4 +192,70 @@ height: 52px;
     display: flex;
     margin-left: 55px;
     justify-content: center;
+}
+.finis{
+    color: #424242;
+    
+}
+.landing{
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1000px;
+height: 50px;
+margin-left: 16%;
+
+}
+/* mobile divicer */
+@media only screen and (max-width:688px)  {
+   .archtact{
+    width: 100px;
+    height: 100px;
+   }
+   .year{
+    width: 50px;
+    height: 50px;
+   }
+   .easy{
+    height: 100px;
+    width: 100px;
+   }
+   .right-container{
+    flex-direction: column;
+    height: 0px;
+    width: 0px;
+   }
+   .left-container{
+    flex-direction: column;
+   }
+   .all{
+    flex-direction: column;
+   }
+   .images{
+    flex-direction: column;
+   }
+   .photo{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px 0px;
+   }
+   .pictur{
+    height: 100px;
+    width: 100px;
+   }
+   /* .box{
+    width: 5px;
+    height: 5px ; */
+   }
+   .icon{
+    flex-direction: column;
+   }
+   /* .container{
+    flex-direction: column;
+   } */
+.google{
+    flex-direction: column;
+}
+    
 }
