@@ -187,6 +187,7 @@ height: 52px;
     padding: 65px;
     mix-blend-mode: luminosity;
     
+    
 }
 .google{
     display: flex;
@@ -248,14 +249,14 @@ margin-left: 16%;
     width: 5px;
     height: 5px ; */
    }
-   .icon{
+   /* .icon{
     flex-direction: column;
-   }
+   } */
    /* .container{
     flex-direction: column;
    } */
 .google{
-    flex-direction: column;
+    display: flex;
 }
     
 }
